@@ -1,0 +1,30 @@
+.wrapper {
+  /* padding: 15px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  /* transform: translateY(50%); */
+}
+
+.block {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.blockTitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 12px;
+  width: 100px;
+  text-transform: capitalize;
+}
