@@ -45,13 +45,13 @@ class Feedback extends Component {
 
     return (
       <div className={styles.wrapper}>
-        <Section title={'Please leave feedback'}>
+        <Section title={'Please leave feedback ❤️'}>
           <FeedbackOptions
             options={Feedback.voteOptions}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-        <Section title={'Statistics'}>
+        <Section title={'Statistics 📊'}>
           {Boolean(total) && (
             <Statistics
               good={good}
